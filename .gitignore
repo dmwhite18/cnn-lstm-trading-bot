@@ -1,0 +1,31 @@
+# Secrets — never commit real credentials
+.env
+*.env
+!.env.example
+
+# Trained models / tokenizers / state
+*.h5
+*.keras
+*.hdf5
+*.pkl
+*.pickle
+conv_model*
+lstm_model*
+model_output/
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pylint.d/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+# Core ML / data stack for the CNN + LSTM trading bot.
+# Versions are left unpinned; the reference models target TensorFlow 2.x.
+tensorflow
+scikit-learn
+numpy
+yfinance
+alpaca-trade-api
+matplotlib
